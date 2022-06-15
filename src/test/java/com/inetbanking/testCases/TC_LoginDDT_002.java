@@ -76,7 +76,7 @@ public class TC_LoginDDT_002 extends BaseClass
 		{
 			for(int j=0;j<colcount;j++)
 			{
-				logindata[i-1][j]=XLUtils.getCellData(path,"Sheet1", i,j);//1 0
+				logindata[i-1][j]=XLUtils.getCellData(path,"Sheet1", i,j);
 			}
 				
 		}

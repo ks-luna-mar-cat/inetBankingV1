@@ -21,7 +21,7 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		logger.info("Passsword is provided");
 		lp.clickSubmit();
 		
-		Thread.sleep(3000);
+		Thread.sleep(3000); //For cookie policy popup after login, select "Save and exit" manually.
 		
 		AddCustomerPage addcust=new AddCustomerPage(driver);
 		
